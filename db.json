@@ -1,0 +1,51 @@
+{
+    "people": [
+        {
+            "id": "1",
+            "name": "Henry",
+            "dogId": "1"
+        }, 
+        {
+            "id": "2",
+            "name": "Pablo",
+            "dogId": "2"
+        },
+        {
+            "id": "3",
+            "name": "Erin",
+            "dogId": "3"
+
+        },
+        {
+            "id": "4",
+            "name": "Ivan",
+            "dogId": "4"
+        }
+    ],
+    "dogs": [
+        {
+            "id":  "1",
+            "name": "Oso",
+            "breed": "Chow Chow",
+            "age": "6"
+        }, 
+        {
+            "id": "2",
+            "name": "Spud",
+            "breed": "Golden Retriever",
+            "age": "2"
+        }, 
+        {
+            "id": "3",
+            "name": "Buddy",
+            "breed": "Dachshund",
+            "age": "8"
+        }, 
+        {
+            "id": "4",
+            "name": "Paco",
+            "breed": "Cocker Spaniel",
+            "age": "1"
+        }
+    ]
+}

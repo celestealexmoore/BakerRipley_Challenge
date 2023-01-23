@@ -1,0 +1,21 @@
+{
+  "name": "candidate_code_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js",
+    "start": "watch-http-server -c-1",
+    "serve": "concurrently \"watch-http-server -c-1\" \"sleepms 1000 && start chrome -incognito http://localhost:8080\"",
+    "serve-mac": "concurrently \"watch-http-server -c-1\" \"sleepms 1000 && open -na \"Google Chrome\" --args --incognito \"http://localhost:8080\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "sleep-ms": "^2.0.1",
+    "watch-http-server": "^0.7.6"
+  }
+}

@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+#dog-info {
+    padding-top: 20px;
+}
+#dog-stats-list {
+    text-align: left;
+}
+#dog-header {
+    text-align: center;
+}
